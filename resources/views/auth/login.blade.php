@@ -42,6 +42,7 @@
                 <x-button class="ml-4">
                     {{ __('Log in') }}
                 </x-button>
+                <a href="/google-auth/redirect" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Iniciar con Google</a>
             </div>
         </form>
     </x-authentication-card>
